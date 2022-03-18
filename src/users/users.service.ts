@@ -11,17 +11,13 @@ export type User = {
 @Injectable()
 export class UsersService{
     private readonly users: User[] = 
+
+    //User Example
     [{
         id: 1,
         name: 'John',
-        username: 'john',
+        username: 'victorbaptistado@gmail.com',
         password: 'hello',
-    },
-    {
-        id: 2,
-        name: 'Anna',
-        username: 'anna',
-        password: 'goodbye',
     },
 ];
 
